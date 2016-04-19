@@ -7,7 +7,6 @@ public class RockPlayer extends Player {
 	name = "The Jets";
 	}
 
-	//implements the generateRoshambo method from the Player class
 	@Override
 	public Roshambo generateRoshambo()
 	{   

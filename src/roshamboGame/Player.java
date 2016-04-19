@@ -25,13 +25,12 @@ package roshamboGame;
 	this.response = response;
 	}
 	  
-	//get method for resonse
+	//get method for response
 	public String getResponse()
 	{
 	return response;
 	}
 	  
-	//abstract method that allows an inheriting class
-	//to generate and return a Roshambo value
+	//method to generate and return a Roshambo value
 	public abstract Roshambo generateRoshambo();
 	}

@@ -11,5 +11,5 @@ public enum Roshambo {
 	if (this.ordinal() == 2) return "Scissors";
 	return "";   
 	}
-	}
-
+	
+}
