@@ -19,6 +19,8 @@ public class RoshamboApp {
 		RockPlayer j = new RockPlayer();
 		RandomPlayer s = new RandomPlayer();
 		System.out.println("Welcome to Rock Paper Scissors!\n");
+		System.out.println("\nRULES:\nROCK beats SCISSORS\nPAPER beats ROCK\nSCISSORS beats PAPER\n"
+				+ "2 like objects equals a draw (ie: PAPER vs PAPER)\n"); 
 
 		// get the users name
 		name = Validator.get_String("Enter your name : ");
@@ -103,5 +105,6 @@ public class RoshamboApp {
 			System.out.println();
 		}
 		System.out.println("Thanks for playing!");
+		scan.close();
 	}
 }
